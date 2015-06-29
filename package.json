@@ -6,8 +6,10 @@
 
   "scripts": {
     "start": "NODE_ENV=dev webpack-dev-server",
+    "clean": "rm -rf public && mkdir public",
     "build": "NODE_ENV=production webpack",
-    "deploy": "surge -p public -d wil.surge.sh"
+    "dist": "npm run clean && npm run build",
+    "deploy": "npm run dist && surge -p public -d wil.surge.sh"
   },
 
   "repository": {
