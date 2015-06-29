@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wpannell/react-es6/issues"
   },
-  "homepage": "https://github.com/wpannell/react-es6"
+  "homepage": "https://github.com/wpannell/react-es6",
+  "dependencies": {
+    "surge": "0.11.1"
+  }
 }
