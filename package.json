@@ -3,19 +3,25 @@
   "version": "1.0.0",
   "description": "labelr sample app",
   "main": "index.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/wpannell/react-es6.git"
   },
+
   "author": "wil.pannell",
   "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/wpannell/react-es6/issues"
   },
+
   "homepage": "https://github.com/wpannell/react-es6",
+
   "dependencies": {
     "surge": "0.11.1"
   }
